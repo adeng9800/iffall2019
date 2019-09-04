@@ -1,0 +1,59 @@
+header {
+  font-family: 'Impact';
+  src: url('/Library/Fonts/Impact.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 70px;
+
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+.stanza {
+  font-family: 'SourceCodePro-Regular';
+  src: url('/Library/Fonts/SourceCodePro-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+  padding-left: 120px;
+  padding-bottom: 20px;
+}
+
+.pv {
+  color: FireBrick;
+}
+
+.db {
+  color: DarkGreen;
+}
+
+.m {
+  color: DarkSlateBlue;
+}
+
+.rs {
+  color: SteelBlue;
+}
+
+.wz {
+  color: Sienna;
+}
+
+.es {
+  color: DarkCyan;
+}
+
+p {
+  color: LightGray;
+}
+
+footer {
+  font-family: 'SourceCodePro-Regular';
+  src: url('/Library/Fonts/SourceCodePro-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+  color: LightGray;
+
+  text-align: center;
+}
