@@ -1,5 +1,5 @@
 header {
-  padding-left: 170px;
+  padding-left: 130px;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -72,4 +72,8 @@ figure {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+
+footer {
+  padding-bottom: 50px;
 }
