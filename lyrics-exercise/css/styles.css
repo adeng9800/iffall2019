@@ -1,26 +1,26 @@
 header {
-  padding-left: 130px;
-  padding-top: 20px;
   padding-bottom: 30px;
 }
 
 h1 {
-  font-family: 'FoundersGroteskCondTest-Bold';
-  src: url('Users/amiedeng/Library/Fonts/FoundersGroteskCondTest-Bold.otf');
-  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   font-style: normal;
-  font-size: 70px;
+  font-size: 100px;
 
+  margin-top: 10;
+  padding-left: 130px;
 }
 
 h3 {
-  font-family: 'FoundersGroteskCondTest-Reg';
-  src: url('/Users/amiedeng/Library/Fonts/FoundersGroteskCondTest-Reg.otf');
-  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   font-style: normal;
-  font-size: 20px;
+  font-size: 15px;
 
-  line-height: 35%;
+  line-height: 50%;
+
+  padding-left: 220px;
 }
 
 p {
@@ -28,8 +28,18 @@ p {
   padding-bottom: 20px;
 }
 
+:root {
+  --mainColor: white;
+}
+
 a {
   color: white;
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  padding-bottom: 0.1em;
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  text-decoration: none;
 }
 
 a:visited {
@@ -39,6 +49,12 @@ a:visited {
 a:hover {
   color: black;
   background-color: white;
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='1.5' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 7px;
+  background-repeat: repeat-x;
+  text-decoration: none;
 }
 
 body {
@@ -76,4 +92,5 @@ figure {
 
 footer {
   padding-bottom: 50px;
+  line-height: 160%;
 }
