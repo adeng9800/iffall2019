@@ -8,8 +8,9 @@ h1 {
   font-style: normal;
   font-size: 100px;
 
-  margin-top: 10;
-  padding-left: 130px;
+  margin-top: 70px;
+  padding-left: 80px;
+
 }
 
 h3 {
@@ -18,9 +19,10 @@ h3 {
   font-style: normal;
   font-size: 15px;
 
-  line-height: 50%;
+  line-height: 160%;
 
   padding-left: 220px;
+  margin-top: 50px;
 }
 
 p {
@@ -30,6 +32,13 @@ p {
 
 :root {
   --mainColor: white;
+}
+
+audio {
+  color: white;
+  width: 450px;
+  height: 40px;
+  padding-top: 10px;
 }
 
 a {
