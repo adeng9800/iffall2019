@@ -21,6 +21,7 @@ body {
   padding-bottom: 40px;
 
   font-family: 'Open Sans', sans-serif;
+  background-color: #F2F2F2;
 }
 
 div {
@@ -47,7 +48,7 @@ p {
 
 footer {
   font-family: 'Montserrat', sans-serif;
-  color: #D8D8D8;
+  color: #CCCCCC;
   font-size: 10px;
 
   padding-top: 20px;
