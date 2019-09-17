@@ -1,0 +1,135 @@
+header {
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: #437DF2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  line-height: 0px;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 0px;
+  font-weight: normal;
+}
+
+body {
+  padding-top: 40px;
+  padding-left: 130px;
+  padding-bottom: 40px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  padding-bottom: 40px;
+}
+
+h2 {
+  color: #F24C26;
+  font-size: 24px;
+}
+
+h5 {
+  color: #437DF2;
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 16px;
+  line-height: 0px;
+}
+
+p {
+  font-size: 12px;
+  line-height: 0px;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  color: #D8D8D8;
+  font-size: 10px;
+
+  padding-top: 20px;
+}
+
+/* Font Weight */
+.light-weight {
+  font-weight: 300;
+}
+
+.regular-weight {
+  font-weight: 400;
+}
+
+.semi-weight {
+  font-weight: 600;
+}
+
+.bold-weight {
+  font-weight: 700;
+}
+
+.extra-weight {
+  font-weight: 800;
+}
+
+/* Font Style */
+.regular-italic {
+  font-style: italic;
+}
+
+.regular-normal {
+  font-style: normal;
+}
+
+.regular-oblique {
+  font-style: oblique;
+}
+
+/* Letter Spacing */
+.normal-spacing {
+  letter-spacing: normal;
+}
+
+.negative-spacing {
+  letter-spacing: 0.2em;
+}
+
+.double-spacing {
+  letter-spacing: 0.4em;
+}
+
+/* Text Decoration */
+.none-decoration {
+  text-decoration: none;
+}
+
+.underline-decoration {
+  text-decoration: underline;
+}
+
+.line-decoration {
+  text-decoration: line-through;
+}
+
+.overline-decoration {
+  text-decoration: overline;
+}
+
+/* Text Transform  */
+.none-transform {
+  text-transform: none;
+}
+
+.upper-transform {
+  text-transform: uppercase;
+}
+
+.lower-transform {
+  text-transform: lowercase;
+}
+
+.capitalize-transform {
+  text-transform: capitalize;
+}
