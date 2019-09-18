@@ -1,0 +1,78 @@
+body {
+  background-color: pink;
+}
+
+main section p {
+  color: blue;
+}
+
+/* any with a class */
+p.secondparagraph {
+
+}
+
+/* space indicates descendant */
+p .secondparagraph {
+
+}
+
+/* > selects children */
+main > p {
+  font-weight: bold;
+}
+
+/* adjacent sibling selector, immediately after */
+h2 + p {
+  font-size: 20px;
+}
+
+/* select every paragraph after sequence and add spacing between*/
+p + p {
+
+}
+
+/* general sibling selector, share the same parent */
+h2 ~ p {
+
+}
+
+/* in this set of siblings, select the 1st pg in the set */
+p:first-child {
+
+}
+
+/* first pg in the set */
+p:first-of-type {
+
+}
+
+/* first of its kind contained with that pg */
+p :first-of-type {
+
+}
+
+/* useful in data, lists, tables */
+p:nth-of-type(odd) {
+
+}
+
+a {
+  font-style: italic;
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  font-size: 30px;
+}
+
+a:visited {
+  color: gray;
+}
+
+p:before {
+  content: "*";
+}
