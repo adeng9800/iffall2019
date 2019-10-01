@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+    }
+
+body {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+/* intro section */
+.intro {
+  background-image: url("../media/8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 150px;
+  color: rgba(64, 51, 51, 1);
+}
+
+h3 {
+  font-size: 1.87em;
+  font-weight: bold;
+  padding-bottom: 180px;
+  text-align: center;
+  display: block;
+  color: rgba(64, 51, 51, 1);
+}
+
+/* common elements */
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(217, 204, 197);
+  padding-bottom: 25px;
+}
+
+/* main paragraph section */
+.main {
+  background-color: rgba(64, 51, 51, 1);
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.main img {
+  height: 300px;
+  width: 400px;
+  float: right;
+  padding: 5px 360px 20px 30px;
+}
+
+div {
+  display: block;
+  padding: 0px 345px 0px 360px;
+  font-size: 1.12em;
+  color: rgb(217, 204, 197);
+}
+
+/* photo paragraph section */
+.photo {
+  background-color: rgba(242, 105, 92, 0.5);
+  padding-top: 38px;
+  padding-bottom: 50px;
+}
+
+.photo h2 {
+  color: rgba(64, 51, 51, 1);
+}
+
+.photo-container {
+  color: rgba(64, 51, 51, 1);
+}
+
+.photo-container > img {
+  height: 150px;
+  width: 200px;
+}
+
+.photo-container img {
+  float: left;
+  padding-left: 40px;
+}
+
+.photo-container h4 {
+  display: inline;
+}
+
+.containing {
+  display: block;
+}
+
+.photo .photo-container p {
+  float: right;
+  width: 200px;
+}
+
+section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* last paragraph section */
+.last {
+  background-color: rgba(235, 242, 241, 0.5);
+}
