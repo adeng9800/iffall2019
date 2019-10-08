@@ -1,0 +1,25 @@
+div.first-div {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+div.second-div {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  position: relative;
+  z-index: 10;
+}
+
+div.child_div {
+  height: 50px;
+  width: 100px;
+  background-color: green;
+  position: relative;
+  top: 0;
+  left: 0;
+}
