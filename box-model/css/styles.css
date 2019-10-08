@@ -1,117 +1,136 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-    }
-
-body {
-  font-family: 'Archivo Narrow', sans-serif;
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #00ff00;
 }
 
-/* intro section */
-.intro {
-  background-image: url("../media/8.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+section {
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
 }
 
 h1 {
-  font-size: 5em;
-  margin-bottom: 0;
-  text-align: center;
-  padding-top: 150px;
-  color: rgba(64, 51, 51, 1);
+	font-size: 40px;
+	margin: 0 0 30px 0;
+	text-align: center;
 }
 
-h3 {
-  font-size: 1.87em;
-  font-weight: bold;
-  padding-bottom: 180px;
-  text-align: center;
-  display: block;
-  color: rgba(64, 51, 51, 1);
+p {
+	padding: 0;
+	margin: 0 0 16px 0;
 }
 
-/* common elements */
-h2 {
-  font-size: 2.5em;
-  text-align: center;
-  color: rgb(217, 204, 197);
-  padding-bottom: 25px;
+.contents {
+	padding: 40px 0 40px 0;
+	width: 960px;
+	margin: auto;
+	box-sizing: border-box;
+	border-top: none;
+	border-bottom: none;
 }
 
-/* main paragraph section */
-.main {
-  background-color: rgba(64, 51, 51, 1);
-  padding-top: 45px;
-  padding-bottom: 50px;
+section#section1 {
+	border: none;
+	background-image: url("../media/3.jpg");
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: white;
+	background-size: cover;
 }
 
-.main img {
-  height: 300px;
-  width: 400px;
-  float: right;
-  padding: 5px 360px 20px 30px;
+section#section1 .contents {
+	height: 480px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 150px;
 }
 
-div {
-  display: block;
-  padding: 0px 345px 0px 360px;
-  font-size: 1.12em;
-  color: rgb(217, 204, 197);
+section#section1 .contents h1 {
+	font-size: 80px;
+	margin: 0 0 0 0;
+	padding: 0;
 }
 
-/* photo paragraph section */
-.photo {
-  background-color: rgba(242, 105, 92, 0.5);
-  padding-top: 38px;
-  padding-bottom: 50px;
+section#section1 .contents h2 {
+	font-size: 30px;
+	line-height: 1;
+	margin: 0 0 20px 0;
+	padding: 0;
+	position: relative;
 }
 
-.photo h2 {
-  color: rgba(64, 51, 51, 1);
+section#section2 {
+	border: none;
+	background-color: #B5918D;
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: white;
 }
 
-.photo-container {
-  color: rgba(64, 51, 51, 1);
+section#section2 .contents img {
+	float:right;
+	width: 400px;
+	height: 300px;
+	margin: 0 0 20px 40px;
+	border: 1px solid white;
 }
 
-.photo-container > img {
-  height: 150px;
-  width: 200px;
+section#section3 {
+	border: none;
+	background-color: white;
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: #444;
 }
 
-.photo-container img {
-  float: left;
-  padding-left: 40px;
+section#section3 .contents .photo {
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 40px 24px 0;
+	clear: both;
 }
 
-.photo-container h4 {
-  display: inline;
+section#section3 .contents .photo img {
+	width: 200px;
+	height: 150px;
+	margin: 0 12px 0 0;
+	float: left;
 }
 
-.containing {
-  display: block;
+section#section3 .contents .photo h3 {
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	padding: 0;
 }
 
-.photo .photo-container p {
-  float: right;
-  width: 200px;
+section#section3 .contents .photo p {
+	margin: 0 0 10px 0;
+	padding: 0;
 }
 
-section:after {
-    content: "";
-    display: block;
-    clear: both;
+section#section4 {
+	border: none;
+	background-color: #E8B9B5;
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: white;
 }
 
-/* last paragraph section */
-.last {
-  background-color: rgba(235, 242, 241, 0.5);
+section#section4 h2 {
+	font-size: 26px;
+	text-align: center;
+	font-weight: normal;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
 }
