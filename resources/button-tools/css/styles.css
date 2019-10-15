@@ -1,0 +1,45 @@
+body {
+  margin: 3rem auto;
+  width: 600px;
+  max-width: 80%;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #ddd;
+  padding: 3px 12px;
+  display: inline-block;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f4f4f4+0,dddddd+51,b7b7b7+100 */
+  background: linear-gradient(to right, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  transition: all 0.3s;
+}
+
+a:visited {
+  color: white;
+  background-color: #ddd;
+}
+
+a:hover {
+  color: white;
+  background: purple;
+  transform: scale(1.2) rotate(10deg);
+  box-shadow: 10px 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+a:active {
+  color: white;
+  background-color: red;
+  transform: scale(0.9) translateY(2px);
+}
