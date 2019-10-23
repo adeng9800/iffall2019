@@ -1,0 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 50px;
+}
+
+h1 {
+  color: #F2A999;
+  font-size: 30px;
+}
+
+h2 {
+  color: #8C7B74;
+  font-size: 18px;
+}
+
+p {
+  margin-top: -8px;
+  font-size: 14.5px;
+}
