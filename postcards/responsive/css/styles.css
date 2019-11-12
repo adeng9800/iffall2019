@@ -1,0 +1,183 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+body {
+  font-family: covik-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 120px 300px 150px 200px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1px;
+}
+
+div {
+  display: block;
+  border: 0;
+  border-top: 3px solid;
+  width: 250px;
+  border-radius: 4px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-top: 10px;
+}
+
+html.card-one {
+  background: url("../media/image1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1.card-one {
+  color: #5E7DAA;
+}
+
+div.card-one {
+  border-color: #5E7DAA;
+}
+
+h2.card-one {
+  color: #5E7DAA;
+}
+
+html.card-two {
+  background: url("../media/image2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1.card-two {
+  color: #3C3C3C;
+}
+
+div.card-two {
+  border-color: #3C3C3C;
+}
+
+h2.card-two {
+  color: #3C3C3C;
+}
+
+html.card-three {
+  background: url("../media/image3.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1.card-three {
+  color: #FBF1F0;
+}
+
+div.card-three {
+  border-color: #FBF1F0;
+}
+
+h2.card-three {
+  color: #FBF1F0;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    padding: 150px 250px 100px 200px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: -1px;
+  }
+
+  div {
+    display: block;
+    border: 0;
+    border-top: 3px solid;
+    width: 250px;
+    border-radius: 2px;
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-top: 10px;
+  }
+}
+
+@media(min-width: 600px) and (max-width: 1025px) {
+  body {
+    padding: 130px 180px 100px 200px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -1px;
+  }
+
+  div {
+    display: block;
+    border: 0;
+    border-top: 3px solid;
+    width: 200px;
+    border-radius: 2px;
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    padding: 200px 150px 100px 100px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  div {
+    display: block;
+    border: 0;
+    border-top: 3px solid;
+    width: 200px;
+    border-radius: 2px;
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-top: 10px;
+  }
+}
