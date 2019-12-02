@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #FFEDCB;
+  background-color: #655E2C;
+}
+
+li {
+  list-style-type: none;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 10vw;
+  margin: auto;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+nav {
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li a {
+  color: #FFEDCB;
+}
+
+li a:hover {
+  color: #FDCB56;
+}
+
+li a:visited {
+  color: #FFEDCB;
+}
+
+#background-image {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+
+.landing-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+}
+
+h1 {
+  margin: 0;
+  font-family: freight-display-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  letter-spacing: -2.47px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1:before, h1:after {
+  background: #FFEDCB;
+  height: 2px;
+  width: 200px;
+  margin: 0 10px;
+  content: '';
+}
+
+h1#varieties:before {
+  background: none;
+}
+
+#varieties {
+  position: relative;
+  left: -350px;
+}
+
+#varieties-image {
+  position: absolute;
+  height: 385px;
+  width: 561px;
+  left: 72%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+h6 {
+  margin: 0;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.scroll-container {
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+}
+
+.vertical-line {
+  border-left: 1px solid #FFEDCB;
+  height: 1.8vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 25px;
+}
+
+footer {
+  font-family: le-monde-livre-std, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  text-align: center;
+  color: #BDB06A;
+  background-color: black;
+  padding: 50px 0;
+}
