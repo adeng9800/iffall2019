@@ -81,7 +81,7 @@ h1:before, h1:after {
   background: #FFEDCB;
   height: 2px;
   width: 200px;
-  margin: 0 10px;
+  margin: 0 15px;
   content: '';
 }
 
@@ -103,16 +103,6 @@ h1#varieties:before {
   transform: translateY(-50%) translateX(-50%);
 }
 
-h6 {
-  margin: 0;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 .scroll-container {
   position: absolute;
   left: 50%;
@@ -130,11 +120,71 @@ h6 {
   top: 25px;
 }
 
+h6 {
+  margin: 0;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.body-container {
+  padding: 100px 0;
+}
+
+.orange-container {
+  margin: auto;
+  width: 20%;
+}
+
+.one {
+  margin-left: 22%;
+}
+
+.two {
+  margin-left: 58%;
+  margin-top: -30%;
+}
+
+.orange-image {
+  position: relative;
+  height: 480px;
+  width: 350px;
+}
+
+/* .text-container {
+  width: 105%;
+  text-align: center;
+} */
+
+.orange-name-text {
+  margin: 0;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: .11px;
+  padding: 20px 0;
+}
+
+.orange-text {
+  margin: 0;
+  font-family: le-monde-livre-std, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.06px;
+  line-height: 20px;
+  color: #BDB06A;
+}
+
 footer {
   font-family: le-monde-livre-std, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.06px;
   text-align: center;
   color: #BDB06A;

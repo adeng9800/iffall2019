@@ -99,9 +99,9 @@ h3 {
 
 h3:before, h3:after {
   background: #FFEDCB;
-  height: 2px;
+  height: 1.4px;
   width: 100px;
-  margin: 0 10px;
+  margin: 0 15px;
   content: '';
 }
 
@@ -216,16 +216,16 @@ h4 {
   position: relative;
   margin: auto;
   text-align: center;
-  padding: 150px 22vw 120px 22vw;
+  padding: 100px 22vw 70px 22vw;
 }
 
 p {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.07px;
-  line-height: 18px;
+  line-height: 20px;
   margin-bottom: 30px;
   color: #FFEDCB;
 }
@@ -292,7 +292,7 @@ footer {
   font-family: le-monde-livre-std, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.06px;
   text-align: center;
   color: #BDB06A;
