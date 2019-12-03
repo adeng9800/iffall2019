@@ -40,12 +40,12 @@ nav li a {
   color: #FFEDCB;
 }
 
-li a:hover {
-  color: #FDCB56;
-}
-
 li a:visited {
   color: #FFEDCB;
+}
+
+li a:hover {
+  color: #FDCB56;
 }
 
 #background-image {
