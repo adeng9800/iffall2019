@@ -130,6 +130,91 @@ h6 {
   top: 25px;
 }
 
+#general-image {
+  position: relative;
+  height: 838px;
+  width: 838px;
+  left: 50%;
+  top: 600px;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.yellow {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.07px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #FDCB56;
+}
+
+.normal {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.07px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  color: #FFEDCB;
+}
+
+.introduction-body-container {
+  position: relative;
+  padding: 100px 350px 150px 350px;
+  top: 150px;
+  text-align: center;
+}
+
+.body-container {
+  position: relative;
+  padding: 100px 0 50px 0;
+}
+
+.orange-container {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.text-container {
+  position: relative;
+  text-align: center;
+  padding: 25px 225px 50px 225px;
+}
+
+.orange-image {
+  position: relative;
+  height: 405px;
+  width: 568px;
+  left: 50%;
+  top: 200px;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.orange-name-text {
+  margin: 0;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: .11px;
+  padding: 0px 0 10px 0;
+}
+
+.orange-text {
+  margin: 0;
+  font-family: le-monde-livre-std, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.06px;
+  line-height: 20px;
+  color: #BDB06A;
+}
+
 footer {
   font-family: le-monde-livre-std, serif;
   font-weight: 400;

@@ -204,9 +204,9 @@ h4 {
 }
 
 #detail-image {
+  position: relative;
   height: 765px;
   width: 1149px;
-  position: relative;
   left: 50%;
   top: 400px;
   transform: translateY(-50%) translateX(-50%);
